@@ -14,3 +14,17 @@ function miPrimerFuncion(){
         }
     };
 }
+
+function miSegundaFuncion(){
+    let result = '';
+    let i = 0;
+    
+    do {
+      i = i + 1;
+      result = result + i;
+    } while (i <100);
+    
+    console.log(result);
+}
+
+miSegundaFuncion()
